@@ -5358,8 +5358,8 @@ BookReader.prototype.buildShareDiv = function(jShareDiv)
 BookReader.prototype.buildInfoDiv = function(jInfoDiv)
 {
 
-	// jd added
-	jInfoDiv.draggable().resizable();
+	// jd added -- removing 2013 06 13 -- side effect is that you can't compy text in the boxes, ugh
+	//jInfoDiv.draggable().resizable();
 	//cboxContent.draggable().resizable();
 
     //jInfoDiv.find('.BRfloatMeta').attr({'href': this.bookUrl, 'alt': this.bookTitle}).text(this.bookTitle);
