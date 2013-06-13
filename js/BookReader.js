@@ -5378,7 +5378,6 @@ BookReader.prototype.buildOcrDiv = function(jOcrDiv)
      jOcrDiv.height(700);//auto resize is a bit of an issue for this div pages with gibberish ocr maybe too big so 
                          //setting this to a size that should not overflow for normal text.
 
-	 JD adding...
 	// jd added -- removing 2013 06 13 -- side effect is that you can't compy text in the boxes, ugh
      //jOcrDiv.draggable().resizable();
 
